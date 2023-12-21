@@ -19,7 +19,7 @@
             <div class="container max-w-7xl mx-auto md:px-5 px-3">
                 <!-- larg navbar  -->
                 <nav class="py-5  justify-between md:flex hidden">
-                    <div class="nav_logo text-cyan-500 text-xl font-semibold hover:text-purple-400 ">SINE</div>
+                    <div class="nav_logo text-[#ad6c12] text-xl font-semibold hover:text-purple-400 ">SINE</div>
                     <ul class="flex space-x-8">
                         <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">WELCOME</a></li>
                         <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">MENU</a></li>
@@ -29,14 +29,14 @@
                     </ul>
                 </nav>
                 <!-- mobile navbar  -->
-                <nav id="mobile_nav" class="py-5 flex flex-col justify-between md:hidden ">
+                <nav id="mobile_nav" class="py-5 flex flex-col justify-between md:hidden relative">
                     <div class="mobile_nav flex justify-between">
-                        <div class="nav_brand text-cyan-500 text-xl font-semibold hover:text-purple-400 mb-5 ">SINE</div>
+                        <div class="nav_brand text-[#ad6c12] text-xl font-semibold hover:text-purple-400 mb-5 ">SINE</div>
                         <div class="nav_icon cursor-pointer">
                             <i class="fa-solid fa-bars text-2xl text-white"></i>
                         </div>
                     </div>
-                    <ul class="hidden space-y-4 ">
+                    <ul class="hidden absolute z-10 w-full bg-black opacity-90 top-14  space-y-4 p-3">
                         <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">WELCOME</a></li>
                         <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">MENU</a></li>
                         <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">EVENT</a></li>
@@ -48,14 +48,13 @@
         </header>
         <!-- hero area  -->
         <div class="container max-w-7xl md:h-[700px] py-5 mx-auto md:px-5 px-3 flex justify-center items-center ">
-            <div class="w-7/12 bg-white opacity-70 py-28 px-20 text-center flex flex-col items-center space-y-8">
+            <div class="md:w-7/12 w-11/12 bg-white opacity-70 mdpy-28 py-12 md:px-20 px-0 text-center flex flex-col items-center space-y-8">
                 <img src="assets/imagese/png.png" alt="">
                 <h1 class="md:text-7xl text-5xl font-bold text-[#ad6c12]">FULL WEBSITE</h1>
-                <button class="text-lg font-semibold hover:text-white bg-orange-600 p-2 opacity-100 hover:bg-slate-600" type="button">READ MORE</button>
+                <button class="md:text-lg text-base font-semibold hover:text-white bg-orange-600 p-2 opacity-100 hover:bg-slate-600" type="button">READ MORE</button>
             </div>
         </div>
     </div>
-
 
     <script src="assets/main.js"></script>
 </body>

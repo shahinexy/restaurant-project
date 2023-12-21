@@ -1,3 +1,4 @@
+// ======== responsive navbar =========
 const navIcon = document.querySelector('.nav_icon i')
 const mobileUl = document.querySelector('#mobile_nav ul')
 console.log(mobileUl);
