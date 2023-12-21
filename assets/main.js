@@ -1,7 +1,6 @@
 // ======== responsive navbar =========
 const navIcon = document.querySelector('.nav_icon i')
 const mobileUl = document.querySelector('#mobile_nav ul')
-console.log(mobileUl);
 navIcon.addEventListener('click', (e)=>{
     if(e.target.classList.contains('fa-bars')){
         e.target.classList.remove('fa-bars');
