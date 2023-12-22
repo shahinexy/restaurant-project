@@ -21,3 +21,16 @@ function mobile(){
         mobileUl.classList.add('hidden')
     }
 }
+
+// Online order area js
+const items = document.querySelector('.all_items');
+const addOrder = document.querySelector('#order');
+items.addEventListener('click', (e)=>{
+    // console.log(addOrder);
+    const div = e.target.parentElement;
+    addOrder.parentElement.appendChild(div);
+    if(e.target.classList.contains('teams')){
+        console.log(items);
+    }
+
+})
