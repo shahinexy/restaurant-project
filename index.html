@@ -1,67 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tailwind cdn  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- fontwesome cdn  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>Sine resturent</title>
 </head>
+
 <body class="font-[Raleway] ">
     <div class="container max-w-full  bg-no-repeat bg-cover" style="background-image: url(assets/imagese/bg.jpg)">
         <header>
             <div class="container max-w-7xl mx-auto md:px-5 px-3">
                 <!-- larg navbar  -->
                 <nav class="py-5  justify-between md:flex hidden">
-                    <div class="nav_logo text-[#ad6c12] text-xl font-semibold hover:text-purple-400 ">SINE</div>
+                    <div class="nav_logo text-[#ad6c12] text-xl font-semibold">SINE</div>
                     <ul class="flex space-x-8">
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">WELCOME</a></li>
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">MENU</a></li>
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">EVENT</a></li>
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">ABOUT US</a></li>
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">CONTACT US</a></li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-[#ad6c12] ">WELCOME</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-[#ad6c12] ">MENU</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-[#ad6c12] ">EVENT</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-[#ad6c12] ">ABOUT US</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-[#ad6c12] ">CONTACT
+                                US</a></li>
                     </ul>
                 </nav>
                 <!-- mobile navbar  -->
                 <nav id="mobile_nav" class="py-5 flex flex-col justify-between md:hidden relative">
                     <div class="mobile_nav flex justify-between">
-                        <div class="nav_brand text-[#ad6c12] text-xl font-semibold hover:text-purple-400 mb-5 ">SINE</div>
+                        <div class="nav_brand text-[#ad6c12] text-xl font-semibold hover:text-purple-400 mb-5 ">SINE
+                        </div>
                         <div class="nav_icon cursor-pointer">
                             <i class="fa-solid fa-bars text-2xl text-white"></i>
                         </div>
                     </div>
                     <ul class="hidden absolute z-10 w-full bg-black opacity-90 top-14  space-y-4 p-3">
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">WELCOME</a></li>
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">MENU</a></li>
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">EVENT</a></li>
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">ABOUT US</a></li>
-                        <li><a href="#" class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">CONTACT US</a></li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">WELCOME</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">MENU</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">EVENT</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">ABOUT
+                                US</a></li>
+                        <li><a href="#"
+                                class="text-white md:text-xl text-base font-semibold hover:text-purple-400 ">CONTACT
+                                US</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <!-- hero area  -->
         <div class="container max-w-7xl md:h-[700px] py-5 mx-auto md:px-5 px-3 flex justify-center items-center ">
-            <div class="md:w-7/12 w-11/12 bg-white opacity-70 md:py-28 py-12 md:px-20 px-0 text-center flex flex-col items-center space-y-8">
+            <div
+                class="md:w-7/12 w-11/12 bg-white opacity-70 md:py-28 py-12 md:px-20 px-0 text-center flex flex-col items-center space-y-8">
                 <img src="assets/imagese/png.png" alt="">
                 <h1 class="md:text-7xl text-5xl font-bold text-[#ad6c12]">FULL WEBSITE</h1>
-                <button class="md:text-lg text-base font-semibold hover:text-white bg-orange-600 p-2 opacity-100 hover:bg-slate-600" type="button">READ MORE</button>
+                <button
+                    class="md:text-lg text-base font-semibold hover:text-white bg-orange-600 p-2 opacity-100 hover:bg-slate-600"
+                    type="button">READ MORE</button>
             </div>
         </div>
     </div>
     <!-- section 2  -->
     <section>
         <div class="container max-w-full bg-[#2a3b40]">
-            <div class="container max-w-7xl mx-auto md:px-5 px-3 text-[#d1d5d6] flex md:flex-row flex-col items-center gap-12 py-12">
+            <div
+                class="container max-w-7xl mx-auto md:px-5 px-3 text-[#d1d5d6] flex md:flex-row flex-col items-center gap-12 py-12">
                 <div class="md:w-6/12 w-full  md:text-start text-center ">
                     <h3 class="text-2xl font-semibold mb-5 ">Indian traditional flavoure</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae mollitia ad quisquam provident assumenda quo at sapiente error dolore aliquam ipsa, eligendi possimus tenetur alias, necessitatibus porro perspiciatis architecto eaque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae mollitia ad quisquam provident
+                        assumenda quo at sapiente error dolore aliquam ipsa, eligendi possimus tenetur alias,
+                        necessitatibus porro perspiciatis architecto eaque.</p>
                 </div>
                 <div class="md:w-6/12 w-full">
                     <img src="assets/imagese/in7_se2_img.jpg" alt="">
@@ -72,55 +103,111 @@
     <!-- section 3  -->
     <section>
         <div class="container  max-w-full bg-[#d4d8d9]">
-            <div class="container max-w-7xl mx-auto md:px-5 px-3 text-[#2a3b40] flex md:flex-row flex-col items-center md:gap-12 gap-8 py-12">
+            <div
+                class="container max-w-7xl mx-auto md:px-5 px-3 text-[#2a3b40] flex md:flex-row flex-col items-center md:gap-12 gap-8 py-12">
                 <div class="md:w-4/12 w-full">
-                    <i class="fa-solid fa-circle text-4xl bg-[[#2a3b40]"></i>
+                    <i class="fa-solid fa-circle text-4xl bg-[#2a3b40]"></i>
                     <h3 class="text-2xl font-semibold my-5 ">New tastes</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo magnam consequatur nemo ullam placeat laboriosam nulla maxime facilis consequuntur soluta, harum dolore. Aliquid in hic commodi, cumque ipsam expedita est.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo magnam consequatur nemo ullam
+                        placeat laboriosam nulla maxime facilis consequuntur soluta, harum dolore. Aliquid in hic
+                        commodi, cumque ipsam expedita est.</p>
                 </div>
                 <div class="md:w-4/12 w-full">
                     <i class="fa-solid fa-circle text-4xl bg-[[#2a3b40]"></i>
                     <i class="fa-solid fa-circle text-4xl bg-[[#2a3b40]"></i>
                     <h3 class="text-2xl font-semibold my-5 ">New spices</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo magnam consequatur nemo ullam placeat laboriosam nulla maxime facilis consequuntur soluta, harum dolore. Aliquid in hic commodi, cumque ipsam expedita est.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo magnam consequatur nemo ullam
+                        placeat laboriosam nulla maxime facilis consequuntur soluta, harum dolore. Aliquid in hic
+                        commodi, cumque ipsam expedita est.</p>
                 </div>
                 <div class="md:w-4/12 w-full">
                     <i class="fa-solid fa-circle text-4xl bg-[[#2a3b40]"></i>
                     <i class="fa-solid fa-circle text-4xl bg-[[#2a3b40]"></i>
                     <i class="fa-solid fa-circle text-4xl bg-[[#2a3b40]"></i>
                     <h3 class="text-2xl font-semibold my-5 ">New dishes</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo magnam consequatur nemo ullam placeat laboriosam nulla maxime facilis consequuntur soluta, harum dolore. Aliquid in hic commodi, cumque ipsam expedita est.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo magnam consequatur nemo ullam
+                        placeat laboriosam nulla maxime facilis consequuntur soluta, harum dolore. Aliquid in hic
+                        commodi, cumque ipsam expedita est.</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- section 4  -->
+    <!-- Items section section 4  -->
     <section>
-        <div class="container max-w-full  bg-no-repeat bg-cover" style="background-image: url(assets/imagese/in7_s4_bg1.jpg)">
+        <div class="container max-w-full  bg-no-repeat bg-cover"
+            style="background-image: url(assets/imagese/in7_s4_bg1.jpg)">
             <div class="container max-w-7xl mx-auto md:px-5 px-3 flex justify-center py-12">
-                <div class=" w-5/6 mx-auto text-[#2a3b40]  py-12">
-                    <div class=" md:w-11/12  w-full flex flex-col items-center bg-white opacity-70 py-7">
+                <div class=" md:w-11/12 w-full text-[#2a3b40]  py-12">
+                    <div class=" lg:w-11/12  w-full  mx-auto flex flex-col items-center bg-white opacity-70 py-7">
                         <img src="assets/imagese/in7_s4_png1.png" alt="">
                         <h1 class="text-4xl font-semibold text-[#ad6c12] my-5">ON YOURE PLATE</h1>
                     </div>
                     <!-- row 1 -->
-                    <div class=" md:w-11/12 w-full flex justify-center items-center">
-                        <div class="md:w-6/12 w-11/12 flex">
-                            <div class="md:w-1/2 w-full ">
-                                <img src="assets/imagese/in7_s4_img1.jpg" alt="">
+                    <div class=" lg:w-11/12 w-full  mx-auto flex lg:flex-row flex-col">
+                        <div class="lg:w-6/12 w-full flex">
+                            <div class="lg:w-1/2 w-full ">
+                                <img class="w-full" src="assets/imagese/in7_s4_img1.jpg" alt="">
                             </div>
-                            <div class="md:w-1/2 w-full text-[#2a3b40] text-center p-2 bg-white opacity-70 h-full flex flex-col justify-center">
-                                <h4 class="md:text-2xl text-xl  font-semibold">TIKKA CHECKEN</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vitae accusamus reiciendis?</p>
+                            <div
+                                class="lg:w-1/2 w-full text-[#2a3b40] text-center p-2 bg-white opacity-70 max-h-full flex flex-col justify-center">
+                                <h4 class="lg:text-2xl text-xl  font-semibold">TIKKA CHECKEN</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusamus?</p>
                             </div>
-                        </div>                        
-                        <div class="md:w-6/12 w-11/12 flex">
-                            <div class="md:w-1/2 w-full">
-                                <img src="assets/imagese/in7_s4_img2.jpg" alt="">
+                        </div>
+                        <div class="lg:w-6/12 w-full flex md:flex-row flex-row-reverse">
+                            <div class="lg:w-1/2 w-full">
+                                <img class="w-full" src="assets/imagese/in7_s4_img2.jpg" alt="">
                             </div>
-                            <div class="md:w-1/2 w-full text-[#2a3b40] text-center p-2 bg-white opacity-70 h-full flex flex-col justify-center">
-                                <h4 class="md:text-2xl text-xl  font-semibold">TIKKA CHECKEN</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vitae accusamus reiciendis?</p>
+                            <div
+                                class="lg:w-1/2 w-full text-[#2a3b40] text-center p-2 bg-white opacity-70 max-h-full flex flex-col justify-center">
+                                <h4 class="md:text-2xl text-xl  font-semibold">SPICY EWDGES</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusamus?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row 2 -->
+                    <div class=" lg:w-11/12 w-full  mx-auto flex lg:flex-row flex-col">
+                        <div class="lg:w-6/12 w-full flex md:flex-row flex-row-reverse">
+                            <div
+                                class="lg:w-1/2 w-full text-[#2a3b40] text-center p-2 bg-white opacity-70 max-h-full flex flex-col justify-center">
+                                <h4 class="lg:text-2xl text-xl  font-semibold">CHECKEN CURRY</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusamus?</p>
+                            </div>
+                            <div class="lg:w-1/2 w-full ">
+                                <img class="w-full" src="assets/imagese/in7_s4_img3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="lg:w-6/12 w-full flex">
+                            <div
+                                class="lg:w-1/2 w-full text-[#2a3b40] text-center p-2 bg-white opacity-70 max-h-full flex flex-col justify-center">
+                                <h4 class="md:text-2xl text-xl  font-semibold">RED CURRY</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusamus?</p>
+                            </div>
+                            <div class="lg:w-1/2 w-full">
+                                <img class="w-full" src="assets/imagese/in7_s4_img4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row 3  -->
+                    <div class=" lg:w-11/12 w-full  mx-auto flex lg:flex-row flex-col">
+                        <div class="lg:w-6/12 w-full flex ">
+                            <div class="lg:w-1/2 w-full ">
+                                <img class="w-full" src="assets/imagese/in7_s4_img5.jpg" alt="">
+                            </div>
+                            <div
+                                class="lg:w-1/2 w-full text-[#2a3b40] text-center p-2 bg-white opacity-70 max-h-full flex flex-col justify-center">
+                                <h4 class="lg:text-2xl text-xl  font-semibold">SPICY VIGGES</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusamus?</p>
+                            </div>
+                        </div>
+                        <div class="lg:w-6/12 w-full flex md:flex-row flex-row-reverse">
+                            <div class="lg:w-1/2 w-full">
+                                <img class="w-full" src="assets/imagese/in7_s4_img6.jpg" alt="">
+                            </div>
+                            <div
+                                class="lg:w-1/2 w-full text-[#2a3b40] text-center p-2 bg-white opacity-70 max-h-full flex flex-col justify-center">
+                                <h4 class="md:text-2xl text-xl  font-semibold">SPICY MIX</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusamus?</p>
                             </div>
                         </div>
                     </div>
@@ -128,8 +215,56 @@
             </div>
         </div>
     </section>
+    <!-- Card section section 5 -->
+    <section>
+        <div class="container max-w-full bg-[#d4d8d9]">
+            <div class="container max-w-7xl mx-auto md:px-5 px-3 text-[#2a3b40] py-12">
+                <div class="md:py-8 py-0">
+                    <div class=" lg:w-11/12  w-full  mx-auto flex flex-col items-center py-7">
+                        <img src="assets/imagese/in7_s10_png1.png" alt="">
+                        <h1 class="text-4xl font-semibold text-[#ad6c12] my-5">OUR NEW MENUE</h1>
+                    </div>
+                </div>
+                <div class="flex md:flex-row flex-col justify-evenly md:gap-20 gap-10">
+                    <!-- card 1  -->
+                    <div class="md:w-4/12 w-full shadow-2xl">
+                        <img class="w-full" src="assets/imagese/in7_s10_img1.jpg" alt="">
+                        <div class="description py-5 px-3 bg-white">
+                            <h3 class="text-xl font-semibold text-[#2a3b40] py-3">Food / 16 March 2019</h3>
+                            <h2 class="text-2xl font-semibold text-[#2a3b40] py-3">Food title</h2>
+                            <p class="text-base text-[#2a3b40]">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, commodi quas! Aut quas optio explicabo rerum autem repellendus magnam dolorem.</p>
+                            <button class="text-base font-semibold text-[#2a3b40] pt-5" type="button">READ MORE</button>
+                            <div class="w-3/12 border-t-4 border-[#ad6c12]"></div>
+                        </div>
+                    </div>
+                    <!-- card 2  -->
+                    <div class="md:w-4/12 w-full shadow-2xl">
+                        <img class="w-full" src="assets/imagese/in7_s10_img2.jpg" alt="">
+                        <div class="description py-5 px-3 bg-white">
+                            <h3 class="text-xl font-semibold text-[#2a3b40] py-3">Food / 16 March 2019</h3>
+                            <h2 class="text-2xl font-semibold text-[#2a3b40] py-3">Food title</h2>
+                            <p class="text-base text-[#2a3b40]">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, commodi quas! Aut quas optio explicabo rerum autem repellendus magnam dolorem.</p>
+                            <button class="text-base font-semibold text-[#2a3b40] pt-5" type="button">READ MORE</button>
+                            <div class="w-3/12 border-t-4 border-[#ad6c12]"></div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="md:w-4/12 w-full shadow-2xl">
+                        <img class="w-full" src="assets/imagese/in7_s10_img3.jpg" alt="">
+                        <div class="description py-5 px-3 bg-white">
+                            <h3 class="text-xl font-semibold text-[#2a3b40] py-3">Food / 16 March 2019</h3>
+                            <h2 class="text-2xl font-semibold text-[#2a3b40] py-3">Food title</h2>
+                            <p class="text-base text-[#2a3b40]">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, commodi quas! Aut quas optio explicabo rerum autem repellendus magnam dolorem.</p>
+                            <button class="text-base font-semibold text-[#2a3b40] pt-5" type="button">READ MORE</button>
+                            <div class="w-3/12 border-t-4 border-[#ad6c12]"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
 
     <script src="assets/main.js"></script>
 </body>
+
 </html>
