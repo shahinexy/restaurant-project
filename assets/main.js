@@ -31,9 +31,6 @@ items.addEventListener("click", (e) => {
     const div = e.target.parentElement;
     const clone = div.cloneNode(true);
     addOrder.appendChild(clone);
-    // const total = addOrder.querySelector(".price");
-    // const pricce = Array.from(total.innerHTML);
-    // totalP.appendChild(pricce.innerHTML)
   }
 });
 
